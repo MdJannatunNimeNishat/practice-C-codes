@@ -8,8 +8,8 @@ int fun(int n)
     }
     else
     {
-        //return 7 + fun(n-2);
-        return n * fun(n-1);
+        return 7 + fun(n-2);
+        //return n * fun(n-1);
     }
 }
 

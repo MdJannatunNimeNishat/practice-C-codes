@@ -3,39 +3,42 @@ number is even subtract 1 */
 //output: 2 1 4 3 6 5 8 7 10 9
 
 #include<stdio.h>
-
-int odd(int n)
+int n=1;
+//int odd(int n)
+void odd()
 {
     //int n=1;
     if(n<=10)
     {
         printf("%d\t",n+1);
         n++;
-        even(n);
+       // even(n);
+       even();
     }
     else{
         return;
     }
 }
 
-int even(int n)
+//int even(int n)
+void even()
 {
     if(n<=10)
     {
         printf("%d\t",n-1);
         n++;
-        odd(n);
+        //odd(n);
+        odd();
     }
     else{
         return;
     }
 }
 
-
-
 int main()
 {
-    int n=1;
-    odd(n);
+    //int n=1;
+   // odd(n);
+   odd();
     return 0;
 }
