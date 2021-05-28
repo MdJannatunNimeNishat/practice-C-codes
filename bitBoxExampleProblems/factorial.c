@@ -6,7 +6,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         fact=i*fact;
-       // n--;
+
     }
     printf("%d",fact);
 }
