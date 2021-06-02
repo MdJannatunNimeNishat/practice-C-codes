@@ -2,7 +2,7 @@
 are reversed. ex: 121*/
 
 #include<stdio.h>
-int main(I)
+int main()
 {
     int num,rev=0,n,i,f=0;
     scanf("%d",&num);
